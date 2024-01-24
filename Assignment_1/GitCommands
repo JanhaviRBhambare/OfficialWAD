@@ -1,0 +1,119 @@
+janha@Jarvis MINGW64 /d/GitHub
+$ git clone https://github.com/JanhaviRBhambare/teatWAD.git
+Cloning into 'teatWAD'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 12 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), done.
+
+janha@Jarvis MINGW64 /d/GitHub
+$ cd github
+bash: cd: github: No such file or directory
+
+janha@Jarvis MINGW64 /d/GitHub
+$ cd teatWAD
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git add *
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test2.txt
+
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git commit -m "teat added"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'janha@Jarvis.(none)')
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git config --global user.email "janhavibhambare77@gmail.com
+> "
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git commit -m "teat added"
+[main b19d2b8] teat added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test2.txt
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git remote set url 
+
+https://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@github.com/JanhaviRBhambare/teatWAD.git
+error: unknown subcommand: `set'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+bash: https://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@github.com/JanhaviRBhambare/teatWAD.git: No such file or directory
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git push  origin main
+
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git remote set-url origin https://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@github.com/JanhaviRBhambare/teatWAD.git
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git push  origin main
+
+
+janha@Jarvis MINGW64 /d/GitHub/teatWAD (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JanhaviRBhambare/teatWAD.git
+   6d0dacd..b19d2b8  main -> main
+
