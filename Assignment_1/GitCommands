@@ -5,7 +5,7 @@ remote: Enumerating objects: 12, done.
 remote: Counting objects: 100% (12/12), done.
 remote: Compressing objects: 100% (7/7), done.
 remote: Total 12 (delta 0), reused 3 (delta 0), pack-reused 0
-Receiving objects: 100% (12/12), done.
+Receiving objects: 100% (12/12), done. 
 
 janha@Jarvis MINGW64 /d/GitHub
 $ cd github
