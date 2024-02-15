@@ -1,0 +1,5 @@
+Install-           npm i express
+Initialize-        npm Initialize
+Start Server-      node app.js    
+
+go chrome and type 'localhost:5500'
