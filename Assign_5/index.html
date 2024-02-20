@@ -1,0 +1,107 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/APP.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="a" id="page1">
+		
+		<div data-role="navbar"  dat-theme="a" id="page2">
+			<ul>
+				<li><a href="#page1">Home</a></li>
+				<li><a href="#page2">Menu</a></li>
+				<li><a href="#page3">About us</a></li>
+			</ul>
+		</div>
+		
+		<div data-role="content" data-position="fixed">
+			<h3> Warm Welcome!!! </h3>
+			<p>
+				Welcome to [Restaurant Name]!
+				
+				Indulge in a culinary journey like no other at our exquisite restaurant. With a passion for flavor and a commitment to excellence, we invite you to savor the finest cuisine crafted by our talented chefs.
+				
+				Explore our diverse menu, curated to tantalize your taste buds with a fusion of global influences and local favorites. From mouthwatering appetizers to delectable entrees and decadent desserts, there's something to satisfy every craving.</p>
+			
+			<a href="#page2" class="ui-btn ui-shadow">Explore our menu</a>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1>Thank you for visiting!!!</h1>
+		</div>
+	</div>
+
+	<div data-role="page" data-theme="b" id="page2">
+		
+		<div data-role="navbar"  dat-theme="b" id="page2">
+			<ul>
+				<li><a href="#page1">Home</a></li>
+				<li><a href="#page2">Menu</a></li>
+				<li><a href="#page3">About us</a></li>
+			</ul>
+		</div>
+		
+		<div data-role="content" data-position="fixed">
+			<h3>Our Menu</h3>
+			<div data-role="collapsibleset" data-theme="b" data-content-theme="a">
+				<div data-role="collapsible">
+					<h3>Starters</h3>
+				<p>I'm the collapsible content for section 1</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Soups</h3>
+				<p>I'm the collapsible content for section 2</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Main Course</h3>
+				<p>I'm the collapsible content for section 3</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Rice</h3>
+				<p>I'm the collapsible content for section 3</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Dessert</h3>
+				<p>I'm the collapsible content for section 3</p>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h5>thank you for visiting!!!</h5>
+		</div>
+	</div>
+
+
+	<div data-role="page" data-theme="c" id="page3">
+		
+		<div data-role="navbar"  dat-theme="c" id="page2">
+			<ul>
+				<li><a href="#page1">Home</a></li>
+				<li><a href="#page2">Menu</a></li>
+				<li><a href="#page3">About us</a></li>
+			</ul>
+		</div>
+		
+		<div data-role="content" data-position="fixed">
+			<p>Whether you're joining us for a romantic dinner, a casual lunch with friends, or a celebratory gathering with family, our warm and inviting atmosphere sets the stage for memorable dining experiences.
+
+				Experience hospitality at its finest with our attentive staff dedicated to ensuring your comfort and satisfaction. Sit back, relax, and let us take care of the rest.
+				
+				Join us at [Restaurant Name] and embark on a culinary adventure that will delight your senses and leave you craving more. Book your table now and let the feast begin!</p>
+			<h3>Leave your Feedback</h3>
+			<form>
+				<label for="slider-10">Slider:</label>
+				<input type="range" name="slider-10" id="slider-10" min="0" max="10" step=".1" value="5">
+			</form>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h5>thank you for visiting!!!</h5>
+		</div>
+	</div>
+</body>
+</html>
